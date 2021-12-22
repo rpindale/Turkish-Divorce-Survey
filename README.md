@@ -30,36 +30,57 @@ through correlation based feature selection and artificial neural networks among
 Data Set Source: divorce.xlsx (https://archive.ics.uci.edu/ml/datasets/Divorce+Predictors+data+set)
 
 Data Overview:
+
 • Data are cleaned and standardized with no missing values.
+
 • About half of the 170 couples reported being divorced.
+
 • Of the married couples, roughly 43% married for love, while the remaining couples had
 arranged marriages.
+
 • Researchers included only happily married couples (i.e. those who had no intention of
 getting divorced) in their study.
+
 • Researchers claimed to have discovered the six most important DPS survey questions
 for divorce prediction - we explore these six features in detail.
 
 Instructions: Run all lines of code in the order that they appear in the notebook (we wrote the code in jupyterlab Version 2.1.5).
 
 Required Python Packages:
+
 • import numpy as np
+
 • import pandas as pd
+
 • import pymc3 as pm
+
 • import arviz as az
+
 • import seaborn as sns
+
 • import scipy.stats as stats
+
 • import matplotlib.pyplot as plt
+
 • import statistics
+
 • from scipy.stats import norm
+
 • az.style.use("arviz-darkgrid")
 
 References:
 • https://archive.ics.uci.edu/ml/datasets/Divorce+Predictors+data+set
+
 • https://dergipark.org.tr/en/download/article-file/748448
+
 • https://www.kaggle.com/alperenclk/for-beginner-divorce-prediction-whit-ann
+
 • https://www.gottman.com/about/the-gottman-method/
+
 • https://blog.keras.io/building-autoencoders-in-keras.html
+
 • https://www.cdc.gov/nchs/data/dvs/national-marriage-divorce-rates-00-19.pdf
+
 • Yöntem, M , Adem, K , İlhan, T , Kılıçarslan, S. (2019). DIVORCE PREDICTION USING
 CORRELATION BASED FEATURE SELECTION AND ARTIFICIAL NEURAL NETWORKS. Nevşehir Hacı Bektaş Veli Üniversitesi SBE Dergisi, 9 (1), 259-273. Retrieved from https://dergipark.org.tr/en/pub/nevsosbilen/issue/46568/549416.
 
